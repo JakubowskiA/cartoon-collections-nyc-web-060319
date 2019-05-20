@@ -2,7 +2,8 @@ def roll_call_dwarves(array)
   array.sort
   dwarves = []
   number = 1
-
+dwarves.each do |dwarf|
+  dwarves.push("#{number} #{dwarf}")
   number +=1
 end
 
