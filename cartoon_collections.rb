@@ -11,7 +11,7 @@ end
 
 def summon_captain_planet(array)
   new = []
-  array..each do |element|
+  array.each do |element|
     new.push("#{element.capitalize}!")
   end
   puts new
