@@ -14,7 +14,7 @@ def summon_captain_planet(array)
   array.each do |element|
     new.push("#{element.capitalize}!")
   end
-  puts new
+new
 end
 
 def long_planeteer_calls# code an argument here
