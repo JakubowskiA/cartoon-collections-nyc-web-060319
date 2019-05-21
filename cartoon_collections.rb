@@ -6,7 +6,7 @@ array.each do |dwarf|
   dwarves.push("#{number} #{dwarf}")
   number +=1
 end
-dwarves
+puts dwarves
 end
 
 def summon_captain_planet# code an argument here
